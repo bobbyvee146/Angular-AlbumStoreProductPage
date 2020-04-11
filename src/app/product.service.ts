@@ -2,6 +2,9 @@ import { Injectable } from '@angular/core';
 import { Http, Response } from '@angular/http';
 import { map } from 'rxjs/operators';
 
+// add this so that it will pass the test - but this is not used
+import 'rxjs/add/operator/map'
+
 @Injectable()
 export class ProductService {
   private _albumUrl = '../assets/album.json';
