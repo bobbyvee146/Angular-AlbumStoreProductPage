@@ -1,11 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Http, Response } from '@angular/http';
-import { map } from 'rxjs/operators';
 import { Observable } from 'rxjs/Observable';
 import { Album } from './album';
-import { Track } from './track';
-
-// add this so that it will pass the test - but this is not used
 import 'rxjs/add/operator/map'
 
 
